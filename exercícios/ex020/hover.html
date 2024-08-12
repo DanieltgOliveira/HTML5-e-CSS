@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Hover</title>
+    <style>
+body {font-family: 'Courier New', Courier, monospace;}
+
+div > p {
+    display: none;
+}
+
+div:hover  > p {
+    text-align: center;
+    display: block;
+    color: #fdf908;
+    background-color: red;
+    width: 260px;
+    
+}
+div:hover {
+    color: blue;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo Hover</h1>
+    <p>Passe o mouse no texto e veja a surpresa</p>
+
+    <div>
+        Passe o Mouse Aqui!
+    <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #fdf908; font-style: italic; font-size: x-large; font-weight: bold;">TEXTO ESCONDIDO....BOO!!!</p>
+    </div>
+
+<P>FIM</P>
+
+</body>
+</html>

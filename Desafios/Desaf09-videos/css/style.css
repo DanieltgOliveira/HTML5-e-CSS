@@ -1,0 +1,8 @@
+*{
+    margin: 5;
+    padding: 1;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 39%);
+    }
+    h1 {color: brown;}
+p {color:#d0ff00; font-style: italic;}

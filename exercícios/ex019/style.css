@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*comentário abre
+HTML id = em CSS #
+HTML class = CSS .
+comentá4io fecha*/
+
+body {background-color: #f5ddc0b2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+    h1 {color: #fcb621bd;}
+
+    #principal {text-align: center;
+    color: #fc8515;
+background-color: #be7a129d;
+color: black;
+font-size: 3em;}
+
+    h2 {color: #c28c17cc;}
+
+    .basico {color: #fd7f7fd7;}
+    .intermediario {color: #ff3939;}
+    .avançado {color: rgb(179, 1, 1);}
+
+    .destaque {background-color: #fdfd2085;
+    width: 250px;
+height: 55px;}
